@@ -21,8 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "CheckSolution",
-            url: "https://github.com/MrBatNik/CheckSolutionLibrary/releases/download/1.0.1/CheckSolution.xcframework.zip",
-            checksum: "e63cd0313bb9af4d4a5b316a43edab45740327208c3744cf72d03cdecb703c11"
+            url: "https://github.com/MrBatNik/CheckSolutionLibrary/releases/download/1.0.0/CheckSolution.xcframework.zip",
+            checksum: "0ae6d9e776a29ab1d5623d0c658388f688cc858699e942c6b0abff565d4a6808"
         )
     ]
 )
