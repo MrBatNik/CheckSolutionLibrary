@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SolutionsLibrary",
+    name: "CheckSolutionLibrary",
     platforms: [
         .iOS(.v16)
     ],
@@ -21,7 +21,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "CheckSolution",
-            url: "https://github.com/MrBatNik/CheckSolutionLibrary/releases/download/1.0.0/CheckSolution.xcframework.zip",
+            url: "https://github.com/MrBatNik/CheckSolutionLibrary/releases/download/1.0.1/CheckSolution.xcframework.zip",
             checksum: "e63cd0313bb9af4d4a5b316a43edab45740327208c3744cf72d03cdecb703c11"
         )
     ]
